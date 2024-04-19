@@ -19,6 +19,7 @@ FISH_INFO 테이블에서 가장 큰 물고기 10마리의 ID와 길이를 출�
 
 ID 컬럼명은 ID, 길이 컬럼명은 LENGTH로 해주세요.
 
+풀이
 SELECT ID, LENGTH # ID,LENGTH 컬럼을 선택(컬럼명 자체가 ID,LENGTH이기 때문에 별도로 변경하지 않음)
 FROM FISH_INFO # FISH_INFO 테이블에서 
 WHERE LENGTH > 10 # LENGTH 가 10 이상
