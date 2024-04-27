@@ -68,7 +68,6 @@ SELECT * FROM fruits WHERE name REGEXP 'apple';
 2. 숫자로 시작하는 단어를 찾음 
 SELECT * FROM words WHERE word REGEXP '^[0-9]';
  
-
 INSTR -
 INSTR 함수는 문자열에서 특정 문자열이나 문자의 위치를 찾는다. 문자열의 시작부터 검색하며, 찾는 문자열이 없으면 0을 반환한다.문자열에서 하위 문자열을 찾는 함수이다.
 
