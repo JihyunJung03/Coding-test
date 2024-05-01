@@ -11,7 +11,7 @@ LAST_NAME VARCHAR(N) N Y # 성
 EMAIL VARCHAR(N) Y N # 이메일
 SKILL_1	VARCHAR(N) N Y # 스킬 1
 SKILL_2	VARCHAR(N) N Y # 스킬 2
-SKILL_3	VARCHAR(N) N Y # 스킬 
+SKILL_3	VARCHAR(N) N Y # 스킬 3
 
 문제
 DEVELOPER_INFOS 테이블에서 Python 스킬을 가진 개발자의 정보를 조회하려 합니다.
