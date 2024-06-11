@@ -21,7 +21,7 @@ SEX_UPON_INTAKE	VARCHAR(N) FALSE
 # 두 번 이상 쓰인 이름
 # 이름이 쓰인 횟수
 # 결과는 이름이 없는 동물은 집계에서 제외
-# 결과는 이름 순으로 조회함
+# 결과는 이름 순으로 조회한다
 SELECT NAME, COUNT(NAME) AS COUNT # 이름 쓰인 횟수
 FROM ANIMAL_INS
 WHERE NAME IS NOT NULL # 이름이 없는 동물은 제외
